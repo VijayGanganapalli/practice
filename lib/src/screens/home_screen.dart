@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../screens/hello_world.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -12,6 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text("Practice"),
       ),
+      body: HelloWorld(),
     );
   }
 }
